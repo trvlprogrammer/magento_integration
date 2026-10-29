@@ -1,0 +1,20 @@
+{
+  "name": "trvlprogrammer/module-integration",
+  "description": "Authenticated REST APIs for eCommerce shipping and payment method synchronization.",
+  "type": "magento2-module",
+  "version": "1.0.0",
+  "license": "OSL-3.0",
+  "require": {
+    "php": "~8.1.0||~8.2.0||~8.3.0",
+    "magento/framework": "103.0.*",
+    "magento/module-store": "101.1.*",
+    "magento/module-shipping": "100.4.*",
+    "magento/module-payment": "100.4.*"
+  },
+  "autoload": {
+    "files": ["registration.php"],
+    "psr-4": {
+      "Trvlprogrammer\\Integration\\": ""
+    }
+  }
+}
